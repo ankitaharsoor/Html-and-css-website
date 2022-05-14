@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+/* Navbar */
+#sectionBlock {
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  border-bottom: solid 1px #ccc;
+  box-shadow: #888888;
+  position: fixed;
+  top: 0;
+}
+
+#sectionBlock .articleBlock {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+}
+#sectionBlock .articleBlock .leftBlock {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 60%;
+}
+
+#sectionBlock .articleBlock .rightBlock {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 40%;
+}
+.leftBlock .logo {
+  margin-left: 130px;
+}
+.rightBlock button {
+  margin-right: 125px;
+}
+.rightBlock .login {
+  color: #6633dc;
+  background-color: transparent;
+  border: 1px solid #6633dc;
+  border-radius: 5px;
+  height: 37px;
+  width: 90px;
+  margin-right: 27px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rightBlock .connect {
+  border: #6633dc;
+  background-color: #6633dc;
+  color: white;
+  width: 170px;
+  height: 37px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Homepage */
+
+#sectionBlock1 {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+  margin-top: 111px;
+}
+#sectionBlock1 .articleBlock1 {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+}
+#sectionBlock1 .articleBlock1 .textBlock {
+  flex-basis: 55%;
+  margin: auto;
+  margin-left: 130px;
+}
+#sectionBlock1 .articleBlock1 .imgBlock {
+  flex-basis: 45%;
+}
+#sectionBlock1 .articleBlock1 .textBlock h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+}
+.textBlock .getStarted {
+  border: #6633dc;
+  background-color: #6633dc;
+  color: white;
+  width: 200px;
+  height: 57px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+/* 2nd page */
+#sectionBlock2 {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+#sectionBlock2 .articleBlock2 h1 {
+  margin-top: 80px;
+}
+#sectionBlock2 .articleBlock2 {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+#sectionBlock2 .articleBlock2 .divSection {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 350px;
+  margin-left: 70px;
+}
+#sectionBlock2 .articleBlock2 .divConnect {
+  flex-basis: 30%;
+}
+#sectionBlock2 .articleBlock2 .divJournal {
+  flex-basis: 30%;
+}
+#sectionBlock2 .articleBlock2 .divAnalyze {
+  flex-basis: 30%;
+}
+#sectionBlock2 .articleBlock2 .divConnect p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+#sectionBlock2 .articleBlock2 .divJournal p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+#sectionBlock2 .articleBlock2 .divAnalyze p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* 3rd page */
+
+#sectionBlock3 {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+#sectionBlock3 .articleBlock3 {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+}
+#sectionBlock3 .articleBlock3 .textBlock1 {
+  flex-basis: 55%;
+  margin: auto;
+  margin-left: 140px;
+  margin-top: 130px;
+}
+#sectionBlock3 .articleBlock3 .imgBlock1 {
+  flex-basis: 45%;
+}
+#sectionBlock3 .articleBlock3 .textBlock1 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+/* 4th page */
+
+#sectionBlock4 {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+#sectionBlock4 .articleBlock4 {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  margin-top: 25px;
+}
+#sectionBlock4 .articleBlock4 .textBlock2 {
+  flex-basis: 55%;
+  margin: auto;
+  margin-left: 140px;
+}
+#sectionBlock4 .articleBlock4 .imgBlock2 {
+  flex-basis: 45%;
+}
+#sectionBlock4 .articleBlock4 .textBlock2 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+/* 5th page */
+
+#sectionBlock5 {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+#sectionBlock5 .articleBlock5 {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  margin-top: 100px;
+}
+#sectionBlock5 .articleBlock5 .textBlock3 {
+  flex-basis: 55%;
+  margin: auto;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+#sectionBlock5 .articleBlock5 .imgBlock3 {
+  flex-basis: 45%;
+}
+#sectionBlock5 .articleBlock5 .textBlock3 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+/* 6th */
+#divBlock {
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: rgb(240, 234, 234);
+}
+#divBlock h1 {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+#divBlock p {
+  margin-left: 182px;
+  margin-top: 5px;
+}
+#divBlock .connectBroker {
+  border: #6633dc;
+  background-color: #6633dc;
+  color: white;
+  width: 200px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: right;
+  margin-right: 170px;
+}
+/* About us */
+#divBlock1{
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+}
+#divBlock1 h1{
+  text-align: center;
+  margin-top: 100px;
+}
+#divBlock1 p{
+  text-align: center;
+  font-size: 15px;
+}
+/* footer */
+
+#footer{
+  background-color: black;
+  height: 170px;
+  display: flex;
+}
+#footer .ul1{
+  flex-basis: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+#footer .ul2{
+  flex-basis: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+#footer .ul1 li {
+  list-style: none;
+  color: #fff;
+  padding-top: 10px;
+}
+#footer .ul2 li{
+list-style: none;
+color: #fff;
+padding-top: 10px;
+}
